@@ -1,0 +1,73 @@
+<!DOCTYPE HTML >
+<html>
+<head>
+    <title>inscription</title>
+</head>
+<body>
+    <FORM ACTION="script" METHOD="post" NAME ="insription en licence"  >
+        <center><h2>inscription en licence</h2></center>
+    <fieldset>
+    <legend align=center>informations personnelles</legend>
+           <center><label  for="nom"> Votre nom: </label> <INPUT TYPE="text" NAME="nom" ID="nom" SIZE=15 MAXLENGTH=30 placeholder="votre nom?"></center>
+           </br>
+           </br>
+        <center><label  for="prénom"> Votre prénom: </label> <INPUT TYPE="text" NAME="prénom" ID="prénom" SIZE=15 MAXLENGTH=30 placeholder="votre prenom?"></center>
+            </br>
+            </br>
+        <center><label  for="age"> Votre age: </label> <INPUT TYPE="text" NAME="age" ID="age" SIZE=15 MAXLENGTH=30 placeholder="votre age?"  ></center>
+            </br>
+            </br> 
+        <center><label for="adresse">votre adresse:</label><textarea id="adresse" rows="5" cols="33" placeholder="votre adresse?"></textarea></center>
+            </br>
+            </br>
+        <center><label  for="mot de passe"> mot de passe: </label> <INPUT TYPE="text" NAME="mot de passe" ID="mot de passe" SIZE=15 MAXLENGTH=30 required="required"></center>
+            </br>
+            </br>
+        <center><label  for=" verif mot de passe"> retapez votre mot de passe: </label> <INPUT TYPE="text" NAME="verif mot de passe" ID="verif mot de passe" SIZE=15 MAXLENGTH=30 required="required"></center>
+        </fieldset>
+    <fieldset>
+    <legend align=center>gestion des groupes et des option </legend>
+       <center>
+        votre groupe:<INPUT TYPE ="radio" NAME ="Groupe" ID="groupe1" VALUE="Groupe1" checked> Groupe1<INPUT TYPE ="radio" NAME =" Groupe" ID="Groupe2" VALUE="Groupe2"> Groupe2 <INPUT TYPE ="radio" NAME =" Groupe" ID="Groupe3" VALUE="Groupe3"> Groupe3
+        </center>
+        </br>
+        </br>
+        <center><label  for="numéro de carte d'étudiant"> numéro de carte d'étudiant: </label> <INPUT TYPE="text" NAME="numéro de carte d'étudiant" ID="nom" SIZE=50 MAXLENGTH=30 placeholder="numéro de carte d'étudiant?"></center>
+        </br>
+        </br>
+        <center>
+        choisissez les options que vous désirez :
+        <SELECT NAME="option" >
+        <OPTION VALUE="J2ee"> J2ee
+        <OPTION VALUE="Android"> Android
+        <OPTION VALUE=" .Net"> .Net
+        <OPTION VALUE=" HTML5"> HTML5
+        <OPTION VALUE="Flex"> Flex
+        </SELECT>
+       </center>
+    </br>
+    </br>  
+       <center><label  for="e-mail"> Votre e-mail: </label> <INPUT TYPE="text" NAME="e-mail" ID="e-mail" SIZE=15 MAXLENGTH=30 placeholder="votre e-mail?" ></center>
+       </br>
+       </br>
+       <center><label  for="URL du site de l'etudiant"> L'URL de votre site: </label> <INPUT TYPE="text" NAME="URL" ID="URL" SIZE=15 MAXLENGTH=30 placeholder="votre URL?"></center>
+       </br>
+       </br>
+       <center><label  for="date de naissance"> Votre date de naissance: </label><input type="date" NAME="date de naissance" ID="date de naissance" SIZE=15 MAXLENGTH=30 placeholder="votre date de naissance?" ></center>
+    </br>
+    </br> 
+<center><label for="ecrivez quelque chose">ecrivez quelque chose:</label><input id="ecrivez quelque chose" name="ecrivez quelque chose" rows="5" cols="33" required pattern="[I][N][S][A][T][0-9]{4} " ></center>
+    </fieldset>
+
+</br>
+    <center>
+    <INPUT TYPE="submit"  onclick="href='insat.html'" VALUE="Valider">
+    <INPUT TYPE="reset" VALUE="réinitialiser">
+    </center>
+  
+    </br>
+    </FORM>
+
+<body>
+</body>
+</html>
